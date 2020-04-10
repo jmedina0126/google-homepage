@@ -98,3 +98,42 @@ input:active, input:hover {
     cursor: pointer;
     user-select: none;
 }
+.corona-link a {
+    text-decoration: none;
+}
+
+/* Footer */
+
+footer {
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+#footer-top {
+    padding-left:2em;
+}
+#footer-bottom {
+    padding: .8em 0 1em 1em;
+}
+.footer-links {
+    font-size: 1.1em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #f2f2f2;
+    color: rgba(0,0,0,.54);
+    border: 1px solid rgba(0,0,0,.10);
+}
+.links-right {
+    margin-left: 63em;
+}
+.footer-links a {
+    padding: 1em;
+    text-decoration: none;
+    color: rgba(0,0,0,.54);
+}
