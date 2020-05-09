@@ -30,9 +30,6 @@ header {
 .nav-left, .nav-right {
     display: flex;
   }
-  .nav-left {
-      margin-right: 75em;
-  }
 .nav-link {
     list-style: none;
     cursor: pointer;
@@ -59,7 +56,9 @@ header {
     color: white;
     font-weight: bold;
 }
+
 /* Main */
+
 main {
     height: 100vh;
     display: flex;
@@ -136,4 +135,10 @@ footer {
     padding: 1em;
     text-decoration: none;
     color: rgba(0,0,0,.54);
+}
+
+@media only screen and (min-width: 900px) {
+    .nav-left {
+        margin-right: 75em;
+    }
 }
