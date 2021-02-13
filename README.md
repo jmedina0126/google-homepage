@@ -2,4 +2,4 @@
 
 From The Odin Project's [curriculum](http://www.theodinproject.com/courses/web-development-101/lessons/html-css)
 
-Mini project from the odin project site deconstructing and reconstructing the google homepage.
+Mini project from the odin project site deconstructing and reconstructing the google homepage Showing ability to recreate design accurately using code.
